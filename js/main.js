@@ -98,7 +98,7 @@ class microParticle {
     this.y = options.y;
     this.s = 2 + Math.random() * 3;
     this.w = $(window).width();
-    this.h = $(window).height();
+    this.h = $(window).height()+1000;
     this.radius = 1 + this.random * 0.5;
     this.color = "#4EFCFE"; //this.random > .5 ? "#a9722c" : "#FFFED7"
   }
